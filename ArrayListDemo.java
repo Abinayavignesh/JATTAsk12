@@ -1,7 +1,9 @@
+/*Create a array list of Strings and then 
+ * remove all the elements from the arraylist*/
 package Task12;
 
 import java.util.ArrayList;
-
+//Create a class Arraylist
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
@@ -27,3 +29,9 @@ public class ArrayListDemo {
 	}
 
 }
+
+/* Output:
+[Aarav, Aadhvik, Visakan, Seyon, Latha, Parthi, Vicky]
+[Aarav, Aadhvik, Visakan, Seyon, Parthi, Vicky]
+[]
+*/

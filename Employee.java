@@ -1,4 +1,12 @@
+/*create a package named com.example.hr that includes an employee class . 
+The employee class should have the following fields and methods:
+Name,Id,Salary
+public void printName()
+public void printSalary */
+
+//Create the package 
 package com.example.hr;
+
 //Creating a class for Employee
 public class Employee {
 	String name;
@@ -20,3 +28,13 @@ public Employee(String empname,int empid,double empsal){
 		System.out.println("Employee Details : "+ salary);
 	}
 }
+
+/*output
+The Employee Details
+Employee Name : Aarav
+Employee Details : 25000.0
+
+The Employee Details 2
+Employee Name : Aadhvik
+Employee Details : 23000.0
+*/

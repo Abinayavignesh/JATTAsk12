@@ -1,3 +1,5 @@
+//Create a java program of TreeMap of employee Id's and names.
+
 package Task12;
 // Java program to Sort a TreeMap By Value 
 
@@ -47,7 +49,7 @@ class TreeMapDemo {
 
 		// Get an iterator 
 		Iterator<Entry<Integer, String>> iterator = set.iterator(); 
-
+		System.out.println("After Sorting Alphabetically : ");
 		while (iterator.hasNext()) 
 		{ 
 			Map.Entry<Integer, String> mp = (Map.Entry<Integer, String>)iterator.next(); 
@@ -55,3 +57,19 @@ class TreeMapDemo {
 		} 
 	} 
 }
+
+/* output
+ * Enter inputs 1: 2 visakan
+Enter inputs 2: 8 abinaya
+Enter inputs 3: 5 aadhvik
+Enter inputs 4: 1 vicky
+Enter inputs 5: 9 bharathi
+After Sorting Alphabetically : 
+5:  aadhvik
+8:  abinaya
+9:  bharathi
+1:  vicky
+2:  visakan
+
+*/
+

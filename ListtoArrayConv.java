@@ -1,8 +1,10 @@
+//Program to convert List to array
+//Create a package named Task12
 package Task12;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Create a class
 public class ListtoArrayConv {
 
 	public static void main(String[] args) {
@@ -31,8 +33,18 @@ public class ListtoArrayConv {
 		for(String na:nameArray) {
 			System.out.println(na);
 		}
-		
-
 	}
-
 }
+
+/* Output: 
+[Aarav, Aadhvik, Visakan, Seyon, Latha, Parthi, Vicky]
+
+After Converting List to Array
+Aarav
+Aadhvik
+Visakan
+Seyon
+Latha
+Parthi
+Vicky
+*/
